@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.popular--margin-top {
+    margin-top: 90px;
+}
+
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.slider__btn {
+    border-color: #D5DDE6 !important;
+}
+
+.slider__btn--size {
+    width: 40px !important;
+    height: 40px !important; 
+}
+
+.btn__prev {
+    transform: rotate(180deg);
+    opacity: 0.5;
+}
+
+.btn__next {
+    opacity: 0.5;
+}
+
+.slider__btn--margin-right {
+    margin-right: 5px;
+}
+
+.btn--active {
+    opacity: 1;
+}
+
+.slides-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.slide-card {
+    width: 285px;
+    height: auto;
+    box-shadow: 0px -3px 6px rgba(90, 90, 90, 0.03), 
+    0px 12px 28px rgba(90, 90, 90, 0.03), 
+    0px 18px 30px rgba(90, 90, 90, 0.03), 
+    0px 12px 17px rgba(90, 90, 90, 0.0258742),
+    0px 1.60501px 2.21381px rgba(90, 90, 90, 0.0151503);
+    margin-bottom: 30px;
+
+    .top-card__image {
+        width: 100%;
+    }
+
+        .top-card__offer {
+            position: relative;
+            padding: 0;
+
+        }
+
+            .offer__left-offer {
+                position: absolute;
+                bottom: 5px;
+                left: 15px;
+                color: #fff; 
+
+            }
+
+            .offer__left-offer-other {
+                position: absolute;
+                bottom: 25px;
+                left: 15px;
+                color: #fff; 
+            }
+
+                .offer__right-offer {
+                    position: absolute;
+                    bottom: 0;
+                    right: 0;
+                    color: #fff;
+                    background:  #155B8A;
+                    padding: 6px 15px 8px;
+                    border-radius: 17px 0 0 0;
+                }
+                
+                    .slide-card__content-card {
+                        padding: 15px;
+                        
+                    }
+
+                        .content-card__title {
+                            font-size: 17px;
+                            font-weight: 500;
+                            color: #151719;
+                            margin: 0;
+                            padding: 0;
+                        }
+
+                            .content-card__location {
+                                font-size: 12px;
+                                color: #6D7882;
+                                font-weight: 400;
+                                margin: 5px 0 0 0;
+                            }
+                                
+                                .content-card__metro {
+                                    display: flex;
+                                    align-items: center;
+                                    margin: 5px 0 0 0;
+                                }
+
+                                    .metro__title {
+                                        font-size: 12px;
+                                        color: #6D7882;
+                                        font-weight: 400;
+                                    }
+
+                                    .metro__icon {
+                                        width: 12px;
+                                    }
+
+                                    .metro__walkman {
+                                        width: 16px;
+                                    }
+
+
+                                    .slide-card__price-form {
+                                        margin-top: 22px;
+                                       
+                                    }
+                                    
+                                    .price-form--wrapper {
+                                        display: flex;
+                                        justify-content: space-between;
+                                        align-items: center;
+                                    }
+
+                                        .appartments--wrapper {
+                                            display: flex;
+                                            column-gap: 6px;
+                                        }
+
+                                            .metro__title {
+                                                padding:0 5px;
+                                                margin: 0;
+                                            }
+
+                                                .appartments__title {
+                                                    margin: 0;
+                                                    padding: 0;
+                                                    font-size: 12px;
+                                                    font-weight: 400;
+                                                    color: #6D7882;
+                                                }
+
+                                                    .appartments__sum {
+                                                        font-size: 12px;
+                                                        font-weight: 400;
+                                                        color: #000;
+                                                    }
+                                                    
+                                                    .price-tabs__tab-items {
+                                                        display: flex;
+                                                        justify-content: flex-end;
+                                                        column-gap: 10px;
+                                                    }
+
+                                                        .price-tabs__item {
+                                                            list-style-type: none;
+                                                            cursor: pointer;
+                                                            color: #6D7882;
+                                                                                                                
+                                                        }
+
+                                                            .item--active {
+                                                                color: #151719;
+                                                                border-bottom: 1px solid #151719;
+                                                            }
+
+                                                            .price-tabs__item:hover {
+                                                                color: #151719;
+                                                                border-bottom: 1px solid #151719;
+                                                            }
+
+                                                            .price-form__form-price {
+                                                                width: 100%;
+                                                                height: 48px;
+                                                                background: #F5F7F9;
+                                                                padding: 14px;
+                                                            }
+
+
+                                                                .form-price--wrapper {
+                                                                    display: flex;
+                                                                    justify-content: space-between;
+                                                                    align-items: center;
+                                                               
+                                                                    
+                                                                }
+
+                                                                .form-price__area {
+                                                                    font-size: 14px;
+                                                                    font-weight: 400;
+                                                                    color: #2C3135;
+                                                                    padding: 0;
+                                                                    margin: 0;
+                                                                }
+                                                            
+                                                                .form-price__price {
+                                                                    font-size: 14px;
+                                                                    font-weight: 600;
+                                                                    color: #151719;
+                                                                    padding: 0;
+                                                                    margin: 0;
+                                                                }
+
+                                                                    .slide-card__company {
+                                                                        font-size: 12px;
+                                                                        font-weight: 400;
+                                                                        color: #6D7882;
+                                                                    }
+
+                                                                        .company--margin {
+                                                                            margin: 12px 0 0 0;
+                                                                        }
+                                                        
+
+}                                                   

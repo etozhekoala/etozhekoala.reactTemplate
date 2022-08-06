@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap');
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.userLinks__row--margin-top {
+    margin-top: 30px;
+}
+
+
+.usefulLinks__title--margin-top {
+    margin-top: 60px;
+}
+
+.usefulLinks__card {
+    border: none !important;
+    width: 590px;
+    height: 248px;
+    box-shadow: 0px -3px 6px rgba(90, 90, 90, 0.03), 
+    0px 12px 28px rgba(90, 90, 90, 0.03), 
+    0px 18px 30px rgba(90, 90, 90, 0.03), 
+    0px 12px 17px rgba(90, 90, 90, 0.0258742), 
+    0px 1.60501px 2.21381px rgba(90, 90, 90, 0.0151503);
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.card--collectionsImage {
+    background: url('../../assets/image/UsefulLinks/cardCollections.png') !important;
+    background-repeat: no-repeat !important;
+    background-position: right !important;
+}
+
+.card__title {
+    font-size: 19px !important;
+}
+
+.card__title--link {
+    color: #151719 !important;
+
+}
+
+.list-content__link {
+    color: #2C3135 !important;
+}
+
+.list-content__link:hover {
+    color: #1B76B2 !important;
+}
+
+.card__title--link:hover {
+    color: #1B76B2 !important;
+}
+
+.card__list-content {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: 15px !important;
+}
+
+.list-content__item {
+    list-style-type: none !important;
+}
+
+.card__list-content--margin-top {
+    margin-top: 20px;
+}
+
+.card__list-content--width {
+    width: 190px;
+}
+
+.list-content__item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-content__sum-object {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+.card--mapCardImage {
+    background: url('../../assets/image/UsefulLinks/cardMap.png') !important;
+    background-repeat: no-repeat !important;
+    background-position: right !important;
+}
+
+.card__text {
+    font-size: 14px;
+    font-weight: 400;
+    width: 264px;
+    margin-top: 20px;
+}
+
+.card__button--custom {
+    background: #EFF2F5 !important;
+    border-radius: 24px !important;
+    color: #151719 !important;
+    height: 48px !important;
+    width: 154px !important;
+    border: none !important;
+    font-size: 14px !important;
+    font-weight: 600;
+}
+
+.userLinks__rowTwo--margin-top {
+    margin-top: 20px;
+}
+
+.card--developImage {
+    background: url('../../assets/image/UsefulLinks/cardDevelop.png') !important;
+    background-repeat: no-repeat !important;
+    background-position: right !important;
+}
+
+.card--small {
+    width: 387px !important;
+} 
+
+.card--buildImage {
+    background: url('../../assets/image/UsefulLinks/cardBuild.png') !important;
+    background-repeat: no-repeat !important;
+    background-position: right !important;
+}
+
+.card--saleImage {
+    background: url('../../assets/image/UsefulLinks/cardSale.png') !important;
+    background-repeat: no-repeat !important;
+    background-position: right !important;
+}
+
+.card__list-content--margin-left {
+    margin-left: 20px;
+}
